@@ -1,7 +1,3 @@
-// // Array of image paths
-// const images = [
-//    "02.jpg", "03.jpg", "05.jpg"
-// ];
 
 let currentIndex = 0; // Track the current image index
 const slideshowElements = document.querySelectorAll('.slideshow'); // Get all images with the class 'slideshow'
@@ -20,3 +16,4 @@ slideshowElements[0].style.display = 'block';
 
 // Change image every 10 seconds (10000ms)
 setInterval(updateSlideshow, 10000);
+
